@@ -1,7 +1,8 @@
 ---
 name: CustomCraft
-author:  Ad5001
+author:  Ad5001 and update by HighLev Team
 version: 1.1
+website: https://discord.gg/tQfWrgz
 api: [3.0.0]
 main: Ad5001\CustomCraft\Main
 commands: []
