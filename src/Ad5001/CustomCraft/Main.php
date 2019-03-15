@@ -3,6 +3,7 @@ namespace Ad5001\CustomCraft;
 use pocketmine\plugin\PluginBase;
 use pocketmine\inventory\ShapedRecipe;
 use pocketmine\item\Item;
+use pocketmine\lang\TranslationContainer;
 use pocketmine\nbt\JsonNBTParser;
 
 
@@ -48,7 +49,7 @@ class Main extends PluginBase{
     
     
     public function getItem(array $item) : Item {
-        $result = Item::get($item[0]);
+        $result = Item::get($item[0],0,1);
         if(isset($item[1])) {
             $result->setCount($item[1]);
         }
@@ -76,3 +77,4 @@ class Main extends PluginBase{
         return yaml_parse(file_get_contents($this->getDataFolder() . "config.yml"));
     }
 }
+
