@@ -1,5 +1,6 @@
 # CustomCraft
 Make your own custom brand new Items and crafts !
+Update by HighLevTeam
 
 ## Description:
 This plugin allows you to add custom crafts on your crftaing table juswt by modifing a simple config !		
